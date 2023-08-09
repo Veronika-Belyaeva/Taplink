@@ -29,55 +29,52 @@ body {
 .hello {
   font-size: 20px;
   font-weight: 600;
-  line-height: normal;
   letter-spacing: 1px;
 }
 .hello-text {
-  margin-top: 6px;
   font-size: 16px;
   font-weight: 300;
-  line-height: normal;
   letter-spacing: 0.8px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
 }
 .do {
   font-size: 16px;
   font-weight: 300;
-  line-height: normal;
 }
 .user {
-  width: 300px;
   height: 95px;
   margin-top: -40px;
   border-radius: 20px;
   background: #ECECEC;
   box-shadow: 0px 4px 30px 0px rgba(111, 111, 111, 0.05);
-  padding-bottom: 27px;
+  padding: 12px 12px 0 15px;
+
+}
+.container {
+  padding: 12px 10px 10px 15px;
 }
 .user-avatar {
-  margin-top: 15px;
-  margin-left: 12px;
   object-fit: cover;
   border-radius: 68px;
   border: 2px solid #000;
 }
 .user-name {
   margin-top: -55px;
-  margin-left: 111px;
+  margin-left: 90px;
   color: #000;
   text-align: center;
   font-size: 16px;
-  font-weight: 500;
-  line-height: normal;
 }
 .user-discription {
-  margin-left: 111px;
+  margin-left: 90px;
   margin-top: -10px;
+  margin-bottom: 20px;
   color: #727272;
   text-align: center;
   font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
 }
 .card {
   border-radius: 20px;
